@@ -1,0 +1,55 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+*.pyo
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# SQLite database
+*.db
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# Test coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+
+# Pytest cache
+.cache/
+
+# IDE / Editor specific
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.*
+
+# Python dependency files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# MacOS files
+.DS_Store
+
+# Uvicorn specific
+*.pid
+*.sock
+
+# Docker files (if you're using Docker)
+docker-compose.yml
+Dockerfile
